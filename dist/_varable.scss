@@ -1,0 +1,4 @@
+@mixin dsply-flex($flex-dir){
+    display: flex;
+    flex-direction: $flex-dir;
+}

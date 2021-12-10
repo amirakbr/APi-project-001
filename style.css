@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+* ::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Main-Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+.Main-Content__Left-Side {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+.Main-Content__Form, .Main-Content__Form__Elem1, .Main-Content__Form__Elem2,
+.Main-Content__Form__Elem3, .Main-Content__Form__Elem4, .Main-Content__Form__Label, .Main-Content__Form__Input, .Main-Content__Right-Side__Title, .Main-Content__Right-Side__Table, .Main-Content__Table {
+  width: 100%;
+  height: auto;
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+.Main-Content__Form__Elem1, .Main-Content__Form__Elem2,
+.Main-Content__Form__Elem3, .Main-Content__Form__Elem4 {
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+.Main-Content__Form__Label, .Main-Content__Form__Input {
+  padding: .5rem 1rem 0.5rem 1rem;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Main-Content__Form__Input {
+  background-color: #ebebeb;
+  border: none;
+  outline: none;
+  border-radius: .4em;
+  font-size: 1.3rem;
+}
+
+.Main-Content__Form__Label {
+  padding-bottom: 0%;
+}
+
+.Main-Content__Form__Button {
+  width: 40%;
+  margin: 2em 30% 0em 30%;
+  padding: .5rem 1rem 0.5rem 1rem;
+  background-color: #d35400;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.Main-Content__Right-Side {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  padding: .5rem 3rem 0.5rem 1rem;
+  background-color: #f3f1f1;
+  border-radius: .9em;
+}
+
+.Main-Content__Right-Side__Title {
+  text-align: center;
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+.Main-Content__Table__Header {
+  background-color: #bdc3c7;
+  border-radius: .5em;
+}
+
+.Main-Content__Right-Side__Table {
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+.Main-Content__Table {
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+td, tr {
+  width: auto;
+  padding: .5rem 1rem 0.5rem 1rem;
+}
+
+button {
+  padding: .3rem .9rem 0.3rem .9rem;
+  border-radius: .9em;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.Button-Delete {
+  background-color: #d35400;
+  color: white;
+}
+
+.Button-Edit {
+  background-color: #2980b9;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
